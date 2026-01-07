@@ -20,7 +20,7 @@ const ProductDetailPage = () => {
   return (
     <div className='details-page'>
       <div className='product-card'>
-        <img src={product.image} alt={product.title} />
+        <img src={product.image} alt={product.title} loading='lazy' />
       </div>
       <div className='product-detail'>
         <h1>{product.title}</h1>
